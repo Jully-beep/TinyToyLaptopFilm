@@ -1,3 +1,11 @@
+/*
+ThinkerTop
+Jully Zhang He
+DIGF-2002-501 Physical Computing
+OCAD University
+Created on 03/03/25
+*/
+
 #include "TinyFilmFestival.h"
 #include "questionmarkanimation.h"
 #include "appleanimation.h"
@@ -11,7 +19,7 @@ Animation appleanimationAnim = appleanimation;
 
 // Pressure sensor pins and variables
 const int mushPin = A0;             // Analog input pin for pressure sensor
-const int mushThreshold = 500;      // Threshold for animation switch
+const int mushThreshold = 1000;      // Threshold for animation switch
 int mushValue = 0;                  // Variable to store pressure reading
 
 void setup() 
